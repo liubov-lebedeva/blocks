@@ -1,0 +1,91 @@
+@import url(reset.css);
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.inlineBlock {
+    margin: 20px auto;
+}
+
+.first {
+    background: #d7613f;
+}
+
+.first div {
+    outline: 2px solid red;
+    font-size: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+.second {
+    background: #67aad7;
+}
+
+.second div {
+    outline: 2px solid red;
+    font-size: 20px;
+}
+
+.second > div {
+    width: 800px;
+}
+
+
+.second > div > div {
+    height: 200px;
+}
+
+.second > div + div {
+    width: 400px;
+}
+
+.second > div + div > div {
+    height: 133.3px;
+}
+
+.third {
+    background: #a4d76e;
+}
+
+.third div {
+    outline: 2px solid red;
+    font-size: 20px;
+}
+
+.third > div {
+    width: 400px;
+    height: 400px;
+}
+
+.third > div + div {
+    width: 800px;
+}
+
+.third > div + div > div {
+    height: 200px;
+}
+
+.third > div + div > div + div > div {
+    width: 400px;
+    height: 200px;
+}
+
+.third > div + div > div + div > div + div > div {
+    height: 100px;
+}
+
+div.inlineBlocksContainer {
+    font-size: 0;
+}
+
+.inlineBlocksContainer > div {
+    display: inline-block;
+}
+
+
+
+
+
