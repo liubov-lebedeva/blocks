@@ -55,25 +55,25 @@
     font-size: 20px;
 }
 
-.third > div {
+.third1 {
     width: 400px;
     height: 400px;
 }
 
-.third > div + div {
+.third2 {
     width: 800px;
 }
 
-.third > div + div > div {
+.third3 {
     height: 200px;
 }
 
-.third > div + div > div + div > div {
+.third4 {
     width: 400px;
     height: 200px;
 }
 
-.third > div + div > div + div > div + div > div {
+.third5 {
     height: 100px;
 }
 
