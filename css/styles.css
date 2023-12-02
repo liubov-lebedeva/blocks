@@ -16,6 +16,7 @@
 .projectContainer {
     padding: 50px 0;
     text-align: center;
+    font-size: 20px;
 }
 
 .btn {
@@ -182,17 +183,17 @@ div.inlineBlocksContainer {
     width: 800px;
 }
 
-.thirdFloat > div + div > div {
+.thirdFloatChild1 > div {
     height: 200px;
 }
 
- .thirdFloat > div + div > div + div > div {
+ .thirdFloatChild2 div {
      width: 400px;
      height: 200px;
      float: left;
  }
 
-.thirdFloat > div + div > div + div > div + div > div {
+.thirdFloatChild3 div {
     height: 100px;
 }
 
