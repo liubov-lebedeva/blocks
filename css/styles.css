@@ -147,21 +147,23 @@ div.inlineBlocksContainer {
     outline: 3px solid red;
 }
 
-.secondFloat > div {
+.secondFloat1 {
     width: 800px;
-    height: 400px;
-    float: left;
 }
 
-.secondFloat > div div {
-    height: 200px;
-}
-
-.secondFloat > div + div {
+.secondFloat2 {
     width: 400px;
 }
 
-.secondFloat > div + div div {
+.secondFloat > div {
+    float: left;
+}
+
+.secondFloat1 > div {
+    height: 200px;
+}
+
+.secondFloat2 > div {
     height: 133.3px;
 }
 
@@ -174,26 +176,32 @@ div.inlineBlocksContainer {
 }
 
 .thirdFloat > div {
-    width: 400px;
-    height: 400px;
     float: left;
 }
 
-.thirdFloat > div + div {
+.thirdFloat1 {
+    width: 400px;
+    height: 400px;
+}
+
+.thirdFloat2 {
     width: 800px;
 }
 
-.thirdFloatChild1 > div {
+.thirdFloat2Child1 {
     height: 200px;
 }
 
- .thirdFloatChild2 div {
-     width: 400px;
-     height: 200px;
-     float: left;
- }
+.thirdFloat2Child2 > div {
+    width: 400px;
+    float: left;
+}
 
-.thirdFloatChild3 div {
+.thirdFloat3Child1 {
+    height: 200px;
+}
+
+.thirdFloat3Child2 > div {
     height: 100px;
 }
 
