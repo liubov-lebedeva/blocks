@@ -214,11 +214,10 @@ div.inlineBlocksContainer {
 .flex-box-1 {
     display: flex;
     background: #d7613f;
-    height: 400px;
-
 }
 
 .flex-box-1 > div {
+    height: 400px;
     width: 400px;
     outline: 3px solid red;
 }
@@ -226,27 +225,27 @@ div.inlineBlocksContainer {
 .flex-box-2 {
     display: flex;
     background: #67aad7;
-    height: 400px;
 }
 
 .flex-box-2 div {
     outline: 3px solid red;
 }
-
-.flex-box-2-child-1 > div {
+.flex-box-2-child-1 {
     width: 800px;
+}
+.flex-box-2-child-1 > div {
     height: 200px;
 }
-
-.flex-box-2-child-2 > div {
+.flex-box-2-child-2 {
     width: 400px;
+}
+.flex-box-2-child-2 > div {
     height: 133.3px;
 }
 
 .flex-box-3 {
     display: flex;
     background: #a4d76e;
-    height: 400px;
 }
 
 .flex-box-3 div {
@@ -255,6 +254,7 @@ div.inlineBlocksContainer {
 
 .flex-box-3 > div:first-child {
     width: 400px;
+    height: 400px;
 }
 
 .flex-box-3 > div:last-child {
